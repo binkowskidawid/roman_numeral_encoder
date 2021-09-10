@@ -77,6 +77,9 @@ const romanEncoder = (num) => {
 const arabNum = arabicInput.addEventListener("input", (e) => {
 	e.preventDefault();
 	num = Number(e.target.value);
-	if (num > 3000) return;
+	if (num > 3000) {
+		alert("Please enter number lower than 3000");
+		return;
+	}
 	romanNumber.innerHTML = `${romanEncoder(num)}`;
 });
