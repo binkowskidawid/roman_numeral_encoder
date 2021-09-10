@@ -31,7 +31,7 @@ h1 {
 .arabic_input {
 	width: 70vw;
 	height: 50px;
-	margin-top: 100px;
+	margin-top: 80px;
 	padding-left: 10px;
 	font-size: 30px;
 	color: rgb(22, 199, 146);
@@ -44,8 +44,8 @@ h1 {
 }
 
 .roman {
-	margin-top: 100px;
-	font-size: 30px;
+	margin-top: 50px;
+	font-size: 40px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
